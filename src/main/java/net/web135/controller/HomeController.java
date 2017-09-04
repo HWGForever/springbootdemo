@@ -15,4 +15,9 @@ public class HomeController {
         //TODO 刘博，这样使用注解的写法会非常省心，使用浏览器访问“http://localhost:8080/hello”就会返回“helloWorld! LiuBo”在页面，你可以继续写些其他的玩玩
         return "helloWorld! LiuBo";
     }
+
+    @GetMapping("/helloBoBo")
+    public String hellobobo(){
+        return "helloWorld! BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBo";
+    }
 }
